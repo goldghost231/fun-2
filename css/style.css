@@ -1,0 +1,15 @@
+/** This css file is attached to the index.html file. */
+
+body{
+    background-color: rgb(107, 88, 88);
+}
+
+.pablo-hub{
+    background-color: orange;
+    border-radius: 12px;
+}
+
+.pablo-hub-2{
+    background-color: black;
+    border-radius: 12px;
+}
