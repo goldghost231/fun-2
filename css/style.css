@@ -1,15 +1,60 @@
-/** This css file is attached to the index.html file. */
-
-body{
-    background-color: rgb(107, 88, 88);
+/* General body styling */
+body {
+    background-color: #000;  /* black background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.pablo-hub{
-    background-color: orange;
-    border-radius: 12px;
+/* Logo section */
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
 }
 
-.pablo-hub-2{
-    background-color: black;
-    border-radius: 12px;
+.logo-text {
+    color: #fff;  /* white text for "Pablo" */
+}
+
+.logo-box {
+    background-color: #f90;  /* Pornhub-style orange */
+    color: #000;            /* black text inside orange box */
+    padding: 0 10px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+/* Nav bar styling */
+.nav-bar {
+    position: absolute;
+    top: 100px;  /* place below the logo */
+    left: 20px;
+}
+
+.nav-bar ul {
+    list-style: none;  /* remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Link styling */
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #f90;  /* orange on hover */
+    text-decoration: underline;
 }

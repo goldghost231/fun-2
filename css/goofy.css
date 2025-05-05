@@ -1,0 +1,21 @@
+.pablo-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.pablo-pic h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pablo-pic img {
+    max-width: 80%;
+    height: auto;
+    border: 4px solid #f90;
+    border-radius: 8px;
+}
