@@ -1,21 +1,72 @@
-.pablo-pic {
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Logo */
+.logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo-text {
+    color: white;
+}
+
+.logo-box {
+    background-color: orange;
+    color: black;
+    padding: 0 8px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+.nav-bar {
+    margin-top: 100px; /* moves it down from the top */
+    text-align: center;
+}
+
+.nav-bar ul {
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-color: #000;
-    color: #fff;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: orange;
+}
+
+
+/* Pablo pics section */
+.pablo-pic {
+    margin-top: 160px;
+    text-align: center;
 }
 
 .pablo-pic h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    color: orange;
 }
 
 .pablo-pic img {
-    width: 200px;
-    height: auto;
-    border: 4px solid #f90;
-    border-radius: 8px;
+    width: 150px;
+    margin: 10px;
+    border: 3px solid orange;
+    border-radius: 6px;
 }
